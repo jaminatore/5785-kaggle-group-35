@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments & Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs & Editors (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data & Datasets (usually too large or local-only)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Models & Checkpoints (use Git LFS if tracking models)
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.weights
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.joblib
+
+# Logs & TensorBoard
+logs/
+runs/
+wandb/
+mlflow/
+*.log
+
+# Environment & Secret variables
+.env.local
+.env.secret
+credentials.json
