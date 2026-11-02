@@ -1,0 +1,13 @@
+
+# Local Python environment
+.venv/
+__pycache__/
+
+# Kaggle datasets
+data/
+*.csv
+
+# Local experiment results
+results/
+# macOS system files
+.DS_Store
